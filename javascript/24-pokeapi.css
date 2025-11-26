@@ -1,0 +1,32 @@
+:root {
+  --main-color: #121212;
+  --main-light-color: #ffffff;
+  --bg-color: #333333;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg-color);
+}
+
+h1,
+h2 {
+  color: var(--main-light-color);
+  text-align: center;
+}
+
+.pokemon-container,
+.pokemon-single-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 300px;
+  margin: 0.5rem;
+  text-align: center;
+  border: 1px solid var(--main-color);
+  background-color: var(--main-light-color);
+  /* border-radius: 20px; */
+}
