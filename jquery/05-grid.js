@@ -2,16 +2,13 @@ $(document).ready(() => {
   let random = () => Math.random() * 255;
 
   for (let i = 0; i < 600; i++) {
-    $('main').append(
+    $('.container').append(
       $('<div>')
-        .css({ display: 'inline-block' })
         .attr({
           class: 'box',
           id: i,
         })
         .css({
-          width: '5em',
-          height: '3em',
           backgroundColor: `rgba(${random()}, 0, ${random()}, 0.8)`,
         })
         .data({
