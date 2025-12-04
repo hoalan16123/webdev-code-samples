@@ -9,11 +9,27 @@
   </head>
   <body>
     <main>
+      <nav class="navbar">
+        <p class="brand-logo">Pokedex</p>
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#poke-list">List</a></li>
+          <li class="nav-item"><a href="#poke-fixed">Fixed</a></li>
+          <li class="nav-item"><a href="#poke-single">Single</a></li>
+        </ul>
+      </nav>
       <h1>Pokedex</h1>
-      <section class="pokemon-container"></section>
-      <hr />
-      <h2>Pokedex - Single Element</h2>
-      <section class="pokemon-single-container"></section>
+      <section id="poke-list">
+        <div class="pokemon-container"></div>
+      </section>
+      <hr class="yellow-border" />
+      <section id="poke-fixed">
+        <div class="pokemon-container2"></div>
+      </section>
+      <hr class="yellow-border" />
+      <section id="poke-single">
+        <div class="pokemon-single-container"></div>
+      </section>
     </main>
   </body>
 </html>
